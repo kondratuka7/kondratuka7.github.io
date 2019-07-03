@@ -1,0 +1,10 @@
+  html{background-color:#fefefe}
+  body{font-family:Open Sans,Arial;color:#454545;font-size:16px;margin:2em auto;max-width:800px;padding:1em;line-height:1.4;text-align:justify}
+  html.contrast body{color:#050505}
+  html.contrast blockquote{color:#11151a}
+  html.contrast blockquote:before{color:#262626}
+  html.contrast a{color:#0051c9}
+  html.contrast a:visited{color:#7d013e}
+  html.contrast span.wr{color:#800}html.contrast span.mfw{color:#4d0000}html.inverted{background-color:#010101}html.inverted body{color:#bababa}html.inverted div#invmode{color:#fff;background-color:#000}html.inverted blockquote{color:#d$
+
+
