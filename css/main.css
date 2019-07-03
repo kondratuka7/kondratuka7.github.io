@@ -7,4 +7,4 @@
   html.contrast a:visited{color:#7d013e}
   html.contrast span.wr{color:#800}html.contrast span.mfw{color:#4d0000}html.inverted{background-color:#010101}html.inverted body{color:#bababa}html.inverted div#invmode{color:#fff;background-color:#000}html.inverted blockquote{color:#d$
 
-
+.image { display: inline; padding: 10px; }
