@@ -23,9 +23,6 @@
        } else {
           lastChange.innerText = deadAliveTimestamp > 0 ? `Зникло після ${new Date(aliveUnixTimestamp * 1000)}` : 'З’явилося невідомо коли';
        }
-       lastOn.innerText = new Date(unix_timestamp * 1000);
- 
     } 
-
      document.addEventListener("DOMContentLoaded", drawContent);
 })();
