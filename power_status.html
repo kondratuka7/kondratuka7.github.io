@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>Керівництво ОСББ</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Чи є світло?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/fonts.css">
   <link rel="stylesheet" type="text/css" href="css/menu.css">
-  <script src="js/site.js"></script>  
+  <script src="js/site.js"></script>
+  <script src="js/powerstatus.js"></script>  
 </head>
 <body>
 
@@ -17,11 +18,11 @@
   <a href="index.html">Сайт Кондратюка 7</a>
   <div id="siteLinks">
     <a href="news.html">Новини</a>
-    <a href="heads.html" class="active">Керівництво</a>
+    <a href="heads.html">Керівництво</a>
     <a href="finances.html">Фінансові документи</a>
     <a href="current_addresses.html">Контакти</a>
     <a href="internet_providers.html">Інтернет-провайдери</a>
-    <a href="power_status.html">Чи є світло?</a>
+    <a href="power_status.html" class="active">Чи є світло?</a>
   </div>
   <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
     <i class="fa fa-bars"></i>
@@ -29,24 +30,16 @@
 </div>
 
 <div style="padding-left:16px">
-  Резюме кандидатів на посаду голови ОСББ <br />
-  <ol>
-    <li></li>
-  </ol>
+<div class="entry">
+  <h3>Зараз <span id="power-status"></span></h3>
+  <div id="last-change"></div>
 </div>
-<div style="padding-left:16px">
-  Резюме кандидатів на посади членів правління ОСББ <br />
-  <ol>
-    <li> <a href=cv/korolenko_cv.htm>Короленко Віталій</a></li>
-    <li> <a href=cv/artamonov_cv.htm>Артамонов Дмитро Вікторович</a></li>
-  </ol>
 </div>
-
 <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
-        this.page.url = 'https://kondratuka7.kyiv.ua/heads.html';
-        this.page.identifier = 'kondratuka-heads-discussion';
+        this.page.url = 'https://kondratuka7.kyiv.ua/power_status.html';
+        this.page.identifier = 'news';
     };
     var disqus_shortname = 'sait-meshkantsiv-kondratiuka-7';
     (function() {  // DON'T EDIT BELOW THIS LINE
@@ -62,7 +55,6 @@
     })();
 </script>
 <noscript>Будь ласка, увімкніть JavaScript для перегляду коментарів на <a href="https://disqus.com/?ref_noscript" rel="nofollow">Disqus</a></noscript>
-
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143312021-1"></script>
 <script>
