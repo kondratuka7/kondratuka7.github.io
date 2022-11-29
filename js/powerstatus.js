@@ -31,7 +31,7 @@
        if (powerIsAlive) {
           lastChange.innerText = deadUnixTimestamp > 0 ? `З’явилося після ${formatedTimestamp(deadUnixTimestamp)}` : 'З’явилося невідомо коли';
        } else {
-          lastChange.innerText = deadAliveTimestamp > 0 ? `Зникло після ${formatedTimestamp(aliveUnixTimestamp)}` : 'Зникло невідомо коли';
+          lastChange.innerText = aliveUnixTimestamp > 0 ? `Зникло після ${formatedTimestamp(aliveUnixTimestamp)}` : 'Зникло невідомо коли';
        }
 
        const pollDate = await fetch(apiPollUrl);
