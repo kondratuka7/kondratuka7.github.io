@@ -41,4 +41,5 @@
        lastPoll.innerText = pollUnixTimestamp > 0 ? `Остання перевірка була ${formatedTimestamp(pollUnixTimestamp)}` : '';
     } 
      document.addEventListener("DOMContentLoaded", drawContent);
+     window.setInterval(drawContent, 60000);
 })();
